@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 					const flagCell = document.createElement('td');
 					const rateCell = document.createElement('td');
 
-					flagCell.innerHTML = `<img src="flags/${currency.toLowerCase()}.png" alt="${currency} flag" style="width: 32px; height: 20px;"> <span>${currency}</span>`;
+					flagCell.innerHTML = `<img src="flags/${currency}.png" style="width: 32px; height: 20px;"> <span>${currency}</span>`;
 					rateCell.textContent = (allToCurrency * 100).toFixed(2);
 
 					tr.appendChild(flagCell);
